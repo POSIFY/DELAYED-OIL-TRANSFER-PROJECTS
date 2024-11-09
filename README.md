@@ -25,3 +25,16 @@ Data set provided by the client as a CSV file, which was downloaded and processe
 1. Microsoft Excel: Utilized for preliminary data correction and initial review of the dataset.
 2. SQL Server: Employed for data cleaning and in-depth analysis to extract meaningful insights.
 3. Power BI: Used to visualize insights and provide detailed, interactive reports.
+
+### EXPLORATORY DATA ANALYSIS (EDA)
+In this EDA phase, we will examine the human resource dataset to address key operational questions that can impact the efficiency and reliability of oil transfer services. These insights will help identify potential areas for improvement and facilitate data-driven decision-making.
+
+### Key Questions to Address:
+1. **Total Number of Truck Drivers**
+   Determine the number of truck drivers to assess if current staffing meets operational demands.
+2. **Number of Efficient Trucks**
+   Identify the count of trucks classified as efficient to understand fleet reliability and potential operational constraints.
+3. **Coverage Areas (Distances in Kilometers)**
+   Analyze distances covered to evaluate the geographic reach and the adequacy of logistical support across areas served.
+4. **Truck Breakdown and Maintenance Frequency**
+   Assess the frequency of truck breakdowns and scheduled maintenance to pinpoint areas needing additional support or preventive measures.
