@@ -46,7 +46,7 @@ WHERE job_title = 'Truck Driver';
 SELECT COUNT(*) AS EfficientTrucks FROM trucks WHERE efficiency_status = 'Efficient';
 SELECT truck_id, SUM(distance_in_km) AS TotalDistanceCovered FROM deliveries GROUP BY truck_id;
 SELECT truck_id, COUNT(*) AS BreakdownCount FROM maintenance_log WHERE maintenance_type = 'Breakdown' GROUP BY truck_id.
-```
+
 
 ### REPORT
 ![dashboard](https://github.com/user-attachments/assets/707f5ab8-511b-4364-93a8-5cad5cc91f61)
