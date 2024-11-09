@@ -46,10 +46,20 @@ WHERE job_title = 'Truck Driver';
 SELECT COUNT(*) AS EfficientTrucks FROM trucks WHERE efficiency_status = 'Efficient';
 SELECT truck_id, SUM(distance_in_km) AS TotalDistanceCovered FROM deliveries GROUP BY truck_id;
 SELECT truck_id, COUNT(*) AS BreakdownCount FROM maintenance_log WHERE maintenance_type = 'Breakdown' GROUP BY truck_id.
-
+```
 
 ### REPORT
 ![dashboard](https://github.com/user-attachments/assets/707f5ab8-511b-4364-93a8-5cad5cc91f61)
+
+1. Truck Drivers: 120 drivers employed, potential shortages during peak periods.
+2. Efficient Trucks: 85 out of 150 trucks are efficient, 65 trucks underperforming.
+3. Coverage Areas: Average distance of 250 km daily; some trucks cover 450 km.
+4. Truck Breakdowns: Average of 2.5 breakdowns per month; some trucks need urgent replacement.
+5. Employee Hiring: 40 new employees hired, 15 truck drivers in the past year.
+6. Hiring Trend: 15 truck drivers hired in the last quarter, indicating demand or turnover.
+7. Insight: Fleet and workforce optimization needed for efficiency and cost reduction.
+
+---
 
 ### RECOMMENDATIONS
 Based on the Exploratory Data Analysi(EDA) and insights derived from the SQL queries, here are some recommendations to improve the efficiency and reliability of the oil transfer service:
