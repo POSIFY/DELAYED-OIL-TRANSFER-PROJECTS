@@ -38,3 +38,11 @@ In this EDA phase, we will examine the human resource dataset to address key ope
    Analyze distances covered to evaluate the geographic reach and the adequacy of logistical support across areas served.
 4. **Truck Breakdown and Maintenance Frequency:**
    Assess the frequency of truck breakdowns and scheduled maintenance to pinpoint areas needing additional support or preventive measures.
+
+### USED USED SQL CODES(In case you are working with only Excel, always include your formulas)
+```SELECT COUNT(*) AS TotalTruckDrivers
+FROM employees
+WHERE job_title = 'Truck Driver';
+SELECT COUNT(*) AS EfficientTrucks FROM trucks WHERE efficiency_status = 'Efficient';
+SELECT truck_id, SUM(distance_in_km) AS TotalDistanceCovered FROM deliveries GROUP BY truck_id;
+SELECT truck_id, COUNT(*) AS BreakdownCount FROM maintenance_log WHERE maintenance_type = 'Breakdown' GROUP BY truck_id;```
