@@ -46,6 +46,10 @@ WHERE job_title = 'Truck Driver';
 SELECT COUNT(*) AS EfficientTrucks FROM trucks WHERE efficiency_status = 'Efficient';
 SELECT truck_id, SUM(distance_in_km) AS TotalDistanceCovered FROM deliveries GROUP BY truck_id;
 SELECT truck_id, COUNT(*) AS BreakdownCount FROM maintenance_log WHERE maintenance_type = 'Breakdown' GROUP BY truck_id.
+```
+
+### REPORT
+![dashboard](https://github.com/user-attachments/assets/707f5ab8-511b-4364-93a8-5cad5cc91f61)
 
 ### RECOMMENDATIONS
 Based on the Exploratory Data Analysi(EDA) and insights derived from the SQL queries, here are some recommendations to improve the efficiency and reliability of the oil transfer service:
@@ -54,7 +58,4 @@ Based on the Exploratory Data Analysi(EDA) and insights derived from the SQL que
 2. **Actionable Steps:**
    Evaluate whether the number of drivers matches the number of trucks and expected delivery volumes.
 
----
-### REPORT
-![dashboard](https://github.com/user-attachments/assets/707f5ab8-511b-4364-93a8-5cad5cc91f61)
 
